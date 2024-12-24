@@ -14,7 +14,7 @@ body {
 }
 
 .product-name,
-.discounted-price,
+.curent-price,
 .attribution {
   font-family: "fraunces", serif;
 }
@@ -22,7 +22,7 @@ body {
 .product-category,
 p,
 button,
-.normal-price {
+.original-price {
   font-family: "Montserrat", serif;
 }
 
@@ -70,7 +70,7 @@ p {
   margin: 20px 0;
 }
 
-.discounted-price {
+.current-price {
   color: hsl(158, 36%, 37%);
   font-size: 1.8em;
   font-weight: 700;
