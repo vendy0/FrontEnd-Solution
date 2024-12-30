@@ -200,38 +200,12 @@ button:active {
   background-color: hsl(158, 75%, 10%);
 }
 
-.attribution {
-  font-size: 14px;
-  text-align: center;
-  margin: 10px;
+footer p{
+  line-height: 1em;
 }
 
 .attribution{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 100%;
-  position: absolute;
-  flex-direction: row;
-  gap: 20px;
-  left: 0;
-  bottom: 0;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to top, hsl(158deg 36% 37% / 40%), transparent);
-  color: hsl(158, 75%, 10%);
-  font-weight: 700;
-  font-size: 1em;
-  text-shadow: 2px 2px 15px hsl(82deg 90% 35% / 48%);
-}
-
-
-.attribution a{
-  color: hsl(158deg 100% 25% / 77%);;
-}
-
-footer p{
-  line-height: 1em;
+  display: none;
 }
 
 
@@ -246,5 +220,30 @@ footer p{
 
   .product-name{
     font-size: 2.4em;
+  }
+  
+  .attribution{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    position: absolute;
+    flex-direction: row;
+    margin: 10px;
+    gap: 20px;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, hsl(158deg 36% 37% / 40%), transparent);
+    color: hsl(158, 75%, 10%);
+    font-weight: 700;
+    font-size: 1em;
+    text-shadow: 2px 2px 15px hsl(82deg 90% 35% / 48%);
+  }
+  
+  
+  .attribution a{
+    color: hsl(158deg 100% 25% / 77%);;
   }
 }
